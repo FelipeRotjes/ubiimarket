@@ -1,0 +1,67 @@
+.modal-content {
+    width: 550px;
+    border-radius: 3rem !important;
+    border-top: 0 none;
+    box-shadow: 5px 5px 20px #c7ced6;
+    background-color: white;
+    padding: 15px;  
+}
+
+.modal-footer {
+    justify-content: center;
+    border-top: 0 none;
+}
+
+.modal-header {
+    border-bottom: 0 none;
+}
+
+.modal-backdrop {
+    background-color: #ea6416;
+}
+
+.imagen-mapa{
+    height: 200px;
+    width: 200px;
+    margin-left: 75px;
+}
+
+.text-mapa{
+    color: #424242;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+}
+
+.text-mapa-2{
+    color: #ea6416;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+
+.btn-mapa-1{
+    height: 45px;
+    width: 120px;
+    background-color: #ea6416;
+    border: 2px solid #ea6416;
+    border-radius: 45px;
+    color: white;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 18px;
+}
+
+.btn-mapa-2{
+    height: 45px;
+    width: 120px;
+    background-color: white;
+    border: 2px solid #ea6416;
+    border-radius: 45px;
+    color: #ea6416;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 18px;
+}
+
+.btn-mapa-1:focus, .btn-mapa-2:focus{
+    outline: none;
+}

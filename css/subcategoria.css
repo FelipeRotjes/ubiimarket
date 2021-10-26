@@ -1,0 +1,69 @@
+.modal-content{
+    height: 500px;
+    width: 500px;
+    border-radius: 250px;
+    border-top: 0 none;
+    box-shadow: 5px 5px 20px #c7ced6;
+}
+
+.modal-backdrop {
+    background-color: #ea6416;
+}
+
+.modal-footer {
+    justify-content: center;
+    border-top: 0 none;
+}
+
+.modal-header {
+    border-bottom: 0 none;
+}
+
+.Cauchos, .Repuestos, .Autopartes{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    background-color: white;
+    border: 2px solid #cbd2da;
+    background-image: url(..//iconos/cauchos.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 80%;
+}
+
+.Repuestos{
+    background-image: url(..//iconos/repuestos.svg);
+    background-size: 100% 57%;
+
+}
+
+.Autopartes{
+    background-image: url(..//iconos/autopartes.svg);
+    background-size: 100% 75%;
+
+}
+
+.Cauchos:hover, .Repuestos:hover, .Autopartes:hover {
+    background-color: #ea6416;
+    border: 2px solid #cbd2da;
+    background-image: url(../iconos/cauchos_blanco.svg);
+
+}
+
+.Repuestos:hover{
+    background-image: url(..//iconos/repuestos_blanco.svg);
+}
+
+.Autopartes:hover{
+    background-image: url(..//iconos/autopartes_blanco.svg);
+}
+
+.Cauchos:focus, .Repuestos:focus, .Autopartes:focus{
+    outline: none;
+}
+
+.Text-4 {
+    color: #424242;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+}

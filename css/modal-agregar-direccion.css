@@ -1,0 +1,72 @@
+.modal-content {
+    width: 650px;
+    border-radius: 3rem !important;
+    border-top: 0 none;
+    box-shadow: 5px 5px 20px #c7ced6;
+    background-color: white;
+    padding: 15px;  
+}
+
+.modal-footer {
+    justify-content: center;
+    border-top: 0 none;
+}
+
+.modal-header {
+    border-bottom: 0 none;
+    justify-content: center;
+}
+
+.modal-backdrop {
+    background-color: #ea6416;
+}
+
+.modal-title{
+    color: #424242;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 25px;
+}
+
+.subtitle{
+    color: #424242;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 18px;
+}
+
+.input-direccion-1{
+    height: 45px;
+    width: 180px;
+    border: 2px solid #ea6416;
+    background-color: transparent;
+    border-radius: 85px;
+    color: #424242;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+}
+
+.input-direccion-2{
+    height: 45px;
+    width: 100%;
+    border: 2px solid #ea6416;
+    background-color: transparent;
+    border-radius: 85px;
+    color: #424242;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+}
+
+.btn-guardar{
+    background-color: #ea6416;
+    border: 2px solid #ea6416;
+    color: white;
+    border-radius: 45px;
+    height: 45px;
+    width: 150px;
+    color: white;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+}
+
+.btn-guardar:focus{
+    outline: none;
+}

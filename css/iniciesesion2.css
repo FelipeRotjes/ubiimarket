@@ -1,0 +1,88 @@
+.fabricantes-ini,
+.retail-ini,
+.comprador-ini {
+    height: 120px;
+    width: 120px;
+    border-radius: 150px;
+    border: 2px solid #c7ced6;
+    background-color: #c7ced6;
+    background-image: url(../iconos/fabricantes_1.svg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.comprador-ini {
+    background-image: url(../iconos/comprador.svg);
+    background-size: 50%;
+
+}
+
+.retail-ini {
+    background-image: url(../iconos/retail_1.svg);
+
+}
+
+.fabricantes-ini:hover {
+    background-image: url(../iconos/fabricante_2.svg);
+    background-color: #ea6416;
+}
+
+.retail-ini:hover {
+    background-image: url(../iconos/retail.svg);
+    background-color: #ea6416;
+}
+
+.comprador-ini:hover {
+    background-image: url(../iconos/comprador_1.svg);
+    background-color: #ea6416;
+
+}
+
+.fabricantes_text-ini,
+.retail_text-ini,
+.comprador_text-ini {
+    color: #ea6416;
+    margin-top: 20px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 15px;
+}
+
+.modal-content-ini {
+    background-color: white !important;
+    height: auto;
+    width: 100%;
+    border-radius: 3rem !important;
+    border-top: 0 none;
+    box-shadow: 5px 5px 20px #c7ced6;
+}
+
+.modal-footer {
+    justify-content: center;
+    border-top: 0 none;
+}
+
+.modal-header {
+    border-bottom: 0 none;
+}
+
+.close {
+    background-image: url(..//iconos/X.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    margin-right: 10px;
+}
+
+.modal-header .close {
+    margin-right: 10px !important;
+    margin-top: 15px;
+}
+
+.equis {
+    opacity: 1;
+}
+
+.line-btn:focus, .equis:focus{
+    outline: none;
+}

@@ -1,0 +1,69 @@
+.back {
+    background-color: white;
+    height: 250px;
+    width: 100%;
+    border-radius: 3rem !important;
+    border-top: 0 none;
+    box-shadow: 5px 5px 20px #c7ced6;
+}
+
+.modal-footer {
+    justify-content: center;
+    border-top: 0 none;
+}
+
+.modal-header {
+    border-bottom: 0 none;
+}
+
+
+.text-registro-1{
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    color: #424242;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.registrarme{
+    border-radius: 45px;
+    background-color: #ea6416;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 25px;
+    color: white;
+    height: 65px;
+    width: 250px;
+    margin-left: 95px;
+    margin-top: -5px;
+}
+
+
+.text-registro-2 {
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 15px;
+    color: #424242;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.text-registro-3 {
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 15px;
+    color: #ea6416;
+    text-align: center;
+    margin-top: -12px;
+    margin-left: 10px;
+    text-decoration-line: none;
+}
+
+.text-registro-3:hover {
+    color: #ea6416;
+}
+
+.modal-backdrop {
+    background-color: #ea6416;
+}
+
+.registrarme:focus{
+    outline: none;
+}

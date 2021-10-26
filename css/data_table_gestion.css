@@ -1,0 +1,110 @@
+table {
+    height: 45px;
+    width: 1250px;
+    border-spacing: 0 20px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    color: #424242;
+    border-collapse: separate;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+    left: 45px;
+
+}
+
+td {
+    background-color: transparent;
+    color: #424242;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+
+}
+
+th{
+    color: #ea6416;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    border-top: none;
+
+}
+
+tr:nth-child(2) td:nth-child(1) {
+    border-bottom-left-radius: 45px;
+    border-top-left-radius: 45px;
+    border: 2px solid #cbd2da;
+}
+
+tr:nth-child(3) td:nth-child(1) {
+    border-bottom-left-radius: 45px;
+    border-top-left-radius: 45px;
+    border: 2px solid #cbd2da;
+}
+
+tr:nth-child(4) td:nth-child(1) {
+    border-bottom-left-radius: 45px;
+    border-top-left-radius: 45px;
+    border: 2px solid #cbd2da;
+}
+
+tr:nth-child(5) td:nth-child(1) {
+    border-bottom-left-radius: 45px;
+    border-top-left-radius: 45px;
+    border: 2px solid #cbd2da;
+}
+
+tr:nth-child(2) td:nth-child(2) {
+    border: 2px solid #cbd2da;
+}
+
+tr:nth-child(3) td:nth-child(2) {
+    border: 2px solid #cbd2da;
+}
+
+tr:nth-child(2) td:nth-child(5) {
+    border-bottom-right-radius: 45px;
+    border-top-right-radius: 45px;
+    border: 2px solid #cbd2da;
+}
+
+tr:nth-child(3) td:nth-child(5) {
+    border-bottom-right-radius: 45px;
+    border-top-right-radius: 45px;
+    border: 2px solid #cbd2da;
+}
+
+tr:nth-child(4) td:nth-child(5) {
+    border-bottom-right-radius: 45px;
+    border-top-right-radius: 45px;
+    border: 2px solid #cbd2da;
+}
+
+tr:nth-child(5) td:nth-child(5) {
+    border-bottom-right-radius: 45px;
+    border-top-right-radius: 45px;
+    border: 2px solid #cbd2da;
+}
+
+
+.image{
+    height: 20px;
+    width: 20px;
+
+}
+
+.imagen{
+    height: 30px;
+    width: 30px;
+}
+
+.imagen-1{
+    height: 35px;
+    width: 35px;
+}
+
+.cauchos{
+    height: 30px;
+    width: 20px;
+}

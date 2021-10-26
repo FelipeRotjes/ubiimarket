@@ -1,0 +1,88 @@
+.transfer {
+    width: 100%;
+    border-radius: 3rem !important;
+    border-top: 0 none;
+    padding: 15px;      
+}
+
+.modal-footer {
+    justify-content: center;
+    border-top: 0 none;
+}
+
+.modal-header {
+    border-bottom: 0 none;
+    justify-content: center;
+}
+
+.modal-backdrop {
+    background-color: #ea6416;
+}
+
+.title-transfer {
+    color :#424242;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+}
+
+.datos-transfer{
+    color :#424242;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 15px;
+}
+
+.input-transfer{
+    height: 45px;
+    width: 100%;
+    border: 2px solid #ea6416;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -webkit-border-radius: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 65px;
+}
+
+.input-transfer-1{
+    height: 45px;
+    width: 185px;
+    border: 2px solid #ea6416;
+    background-color: transparent;
+    border-radius: 45px;
+    position: relative;
+    left: 55px;
+}
+
+.input-transfer-2{
+    height: 45px;
+    width: 100%;
+    border: 2px solid #ea6416;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -webkit-border-radius: 45px;
+    border-radius: 45px;
+    position: relative;
+    left: 20px;
+}
+
+.btn-procesar-transfer{
+    height: 45px;
+    width: 120px;
+    background-color: #ea6416;
+    border: 2px solid #ea6416;
+    border-radius: 45px;
+    color: white;
+}
+
+.btn-cancelar-transfer{
+    height: 45px;
+    width: 120px;
+    background-color: transparent;
+    border: 2px solid #ea6416;
+    border-radius: 45px;
+    color: #ea6416;
+}
+
+.btn-procesar-transfer:focus, .btn-cancelar-transfer:focus{
+    outline: none;
+}

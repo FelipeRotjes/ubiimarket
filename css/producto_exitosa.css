@@ -1,0 +1,35 @@
+.modal-content-producto-exitosa {
+    height: 600px;
+    width: 600px;
+    border-radius: 300px;
+    border-top: 0 none;
+    box-shadow: 5px 5px 20px #c7ced6;
+    background-color: white;
+    padding: 15px;  
+}
+
+.modal-footer {
+    justify-content: center;
+    border-top: 0 none;
+}
+
+.modal-header {
+    border-bottom: 0 none;
+}
+
+
+.modal-backdrop {
+    background-color: #ea6416;
+}
+
+.imagen{
+    height: 50px;
+    width: 50px;
+
+}
+
+.text-exitosa{
+    color: #ea6416;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+}

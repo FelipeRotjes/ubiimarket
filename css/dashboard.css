@@ -1,0 +1,399 @@
+body {
+    margin: 0 auto;
+    background-color: white;
+    width: 100%;
+}
+
+
+.inicio-1{
+    height: 100px;
+    width: 100%;
+    background-image: url(..//iconos/ubiimarket_1.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: none;
+    background-color: transparent;
+}
+
+.empresa{
+    height: 45px;
+    width: 25px;
+    border: 2px solid #cbd2da;
+    background-color: transparent;
+    color: #424242;
+    border-radius: 45px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    padding: 7px; 
+    padding-right: 6px;
+    text-align: center;
+}
+
+.carrito{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 2px solid #cbd2da;
+    margin-top: 10px;
+    background-image: url(..//iconos/carrito.svg);
+    background-position: center;
+    background-size: 60% 60%;
+    background-repeat: no-repeat;
+
+}
+
+.menu{
+    height: 700px;
+    width: 140px;
+    background-color: #cbd2da;
+    border-top-right-radius: 75px;
+    border-bottom-right-radius: 75px;
+    padding-top: 5px;
+}
+
+.fabricantes-1{
+    height: 125px;
+    width: 125px;
+}
+
+.Firestone{
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 50px;
+    color: #ea6416;
+}
+
+.estrellita{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    right: -85px;
+    top: -55px;
+}
+
+.perfil{
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 25px;
+    color: #ea6416;
+}
+
+.text{
+    color:#ea6416;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 15px;
+}
+
+.btn-radio{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    border: 2px solid #cbd2da;
+    position: relative;
+    top: 48px;
+}
+
+.btn-radio-1{
+    position: relative;
+    top: 8px;
+}
+
+.btn-radio:focus{
+    outline: none;
+}
+
+.btn-act{
+    height: 45px;
+    width: 145px;
+    border-radius: 45px;
+    background-color: transparent;
+    border: 2px solid #ea6416;
+    color: #ea6416;
+    position: relative;
+    top: 35px;
+}
+
+.btn-act:hover{
+    background-color: #ea6416;
+    color: white;
+    border: 2px solid #ea6416;
+}
+
+.icono-empresa{
+    height: 55px;
+    width: 55px;
+}
+
+.icono-cuenta{
+    height: 65px;
+    width: 65px;
+    position: absolute;
+    left: -3px;
+}
+
+.nombreempresa{
+    color:#ea6416;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 25px;
+    position: absolute;
+    left: 45px;
+    top: -1px;
+}
+
+.linea{
+    height: 1px;
+    width: 100%;
+    border-radius: 45px;
+    background-color: #ea6416;
+    position: absolute;
+    left: 95px;
+}
+
+.linea1{
+    height: 1px;
+    width: 100%;
+    border-radius: 45px;
+    background-color: #ea6416;
+    position: absolute;
+    left: 95px;
+    top: 55px;
+}
+
+.linea2{
+    height: 1px;
+    width: 300px;
+    border-radius: 45px;
+    background-color: #ea6416;
+    position: absolute;
+    left: 95px;
+    top: 55px;
+}
+
+.linea3{
+    height: 1px;
+    width: 860px;
+    border-radius: 45px;
+    background-color: #ea6416;
+    position: absolute;
+    left: 95px;
+    top: 55px;
+}
+
+.lapicito{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    left: 380px;
+    top: 25px;
+}
+
+.lapicito2{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    left: 935px;
+    top: 25px;
+}
+
+.desactivar{
+    position: relative;
+    top:75px;
+}
+
+.text-area{
+    height: 150px;
+    width: 100%;
+    position: relative;
+    top: 45px;
+    border: 2px solid #ea6416;
+    border-radius: 45px;
+    padding: 20px;
+}
+
+.info{
+    position: relative;
+    left: 10px;
+    top:  46px;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    border: 1px solid #ea6416;
+    background-color: transparent;
+    background-image: url(..//iconos/info.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60% 60%;
+}
+
+.text-1{
+    color: #424242;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 15px;
+}
+
+.aceptar{
+    height: 45px;
+    width: 120px;
+    background-color: #ea6416;
+    color: white;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 15px;
+    border: 2px solid #ea6416;
+    border-radius: 45px;
+    margin-left: -15px;
+}
+
+.cancelar{
+    height: 45px;
+    width: 120px;
+    background-color: white;
+    color: #ea6416;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 15px;
+    border: 2px solid #ea6416;
+    border-radius: 45px;
+    margin-left: 15px;
+}
+
+.btn-user, .btn-inventary, .btn-purchases, .btn-bill, .btn-direction, .btn-shop, .btn-management{
+    height: 80px;
+    width: 80px;
+    padding: 15px;
+    background-position: center;
+    background-size: 60% 60%;
+    background-repeat: no-repeat;
+    margin-left: 27px;
+    margin-top: 16px;
+    background-color: transparent;
+    border: none;
+}
+
+.btn-user{
+    background-image: url(..//iconos/usernaranja.svg);
+}
+
+.btn-inventary{
+    background-image: url(..//iconos/inventario.svg);
+    background-size: 100% 100%;
+}
+
+.btn-purchases{
+    background-image: url(..//iconos/compras.svg);
+}
+
+.btn-bill{
+    background-image: url(..//iconos/facturas.svg);
+}
+
+.btn-direction{
+    background-image: url(..//iconos/direccion.svg);
+    background-size: 70% 70%;
+}
+
+.btn-shop{
+    background-image: url(..//iconos/tienda.svg);
+    background-size: 70% 70%;
+}
+
+.btn-management{
+    background-image: url(..//iconos/gestion.svg);
+    background-size: 70% 70%;
+}
+
+.btn-user:focus, .btn-inventary:focus, .btn-purchases:focus, .btn-bill:focus, .btn-direction:focus, .btn-shop:focus, .btn-management:focus, .inicio:focus, .carrito:focus, .inicio-1:focus, .btn-act:focus, .aceptar:focus, .cancelar:focus{
+    outline: none;
+}
+
+.btn-user:hover{
+    background-image: url(..//iconos/usernaranja.svg);
+}
+
+.btn-inventary:hover{
+    background-image: url(..//iconos/inventarynaranja.svg);
+}
+
+.btn-purchases:hover{
+    background-image: url(..//iconos/comprasnaranja.svg);
+}
+
+.btn-bill:hover{
+    background-image: url(..//iconos/facturasnaranja.svg);
+}
+
+.btn-direction:hover{
+    background-image: url(..//iconos/direccionnaranja.svg);
+}
+
+.btn-shop:hover{
+    background-image: url(..//iconos/tiendanaranja.svg);
+}
+
+.btn-management:hover{
+    background-image: url(..//iconos/gestionnaranja.svg);
+}
+
+.carrito:hover{
+    background-color: #ea6416;
+    border: 2px solid #ea6416;
+}
+
+/* .inicio-1:hover{
+    background-color: #ea6416;
+    color: white;
+    border: 2px solid #ea6416;
+} */
+
+.btn-user:focus{
+    background-image: url(..//iconos/usernaranja.svg);
+}
+
+.btn-inventary:focus{ 
+    background-image: url(..//iconos/inventarynaranja.svg);
+}
+
+.btn-purchases:focus{
+    background-image: url(..//iconos/comprasnaranja.svg);
+}
+
+.btn-bill:focus{
+    background-image: url(..//iconos/facturasnaranja.svg);
+}
+
+.btn-direction:focus{
+    background-image: url(..//iconos/direccionnaranja.svg);
+}
+
+.btn-shop:focus{
+    background-image: url(..//iconos/tiendanaranja.svg);
+}
+
+.btn-management:focus{
+    background-image: url(..//iconos/gestionnaranja.svg);
+}
+
+@media (max-width: 700px) {
+
+    .hidden-xs{
+        display: none;
+    }
+
+    .linea, .linea1, .linea2, .linea3{
+        width: 200px;
+    }
+
+    .lapicito, .lapicito2{
+        position: relative;
+        left:240px;
+        top: 3px;
+    }
+
+    .nombreempresa{
+        font-size: 20px;
+        position: absolute;
+        left: 40px;
+    }
+
+}
+
+
+
+

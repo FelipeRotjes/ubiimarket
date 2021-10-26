@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ubiimarket</title>
+
+    <link rel="stylesheet" href="css/bootstrap-4.3.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/Carga_Producto.css">
+    <link rel="stylesheet" href="css/modal-tasa.css">
+    <link rel="stylesheet" href="css/producto_exitosa.css">
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="iconos/ubii.png">
+
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="container">
+            <div class="col-12 col-md-12">
+                <div class="row">
+                    <div class="col-2 col-md-2 mt-5 ml-4">
+
+                        <a href="ubiimarket.html">
+                            <button class="inicio-1">
+                                
+                            </button>
+                        </a>
+    
+                        
+                        </div>
+                    <div class="col-2 col-md-2 offset-md-6 text-center mt-4 p-1 pl-1 mr-n1">
+                        <div class="input-group">
+
+                            <select class="custom-select empresa text-center w-25 mt-5 pl-4" id="inputGroupSelect01">
+                                <option selected>Firestone</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+
+                        </div>
+                    </div>
+                    <div class="col-1 col-md-1 mt-5">
+
+                        <a href="carrito.html">
+                        <button class="carrito">
+
+                        </button>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="container-fluid">
+            <div class="col-12 col-md-12 text-center">
+                <img class="fabricantes-1" src="iconos/fabricantenaranja.svg" alt="Fabricantes">
+                <h1 class="Firestone text-center mt-4">Firestone</h1>
+                <img class="estrellita mr-n5 mt-n5" src="iconos/estrellita.svg" alt="estrellita">
+                <h2 class="perfil">Inventario</h2>
+
+            </div>
+
+            <div class="col-12 col-md-12 text-center">
+
+            <a href="Inventary.html">
+                <button class="btn-product ml-n3 mt-4">Lista de Producto</button>
+            </a>
+
+            <button type="button" class="btn-product ml-3 mt-4"
+            data-toggle="modal" data-target="#exampleModal">Definir Nueva Tasa</button>
+
+            </div>
+
+            <div class="col-12 col-md-12">
+                <h2 class="perfil text-center mt-5">Nuevo Producto</h2>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+    <div class="row">
+        <div class="container-fluid">
+            <div class="col-12 col-md-12">
+                <div class="row">
+                    <div class="col-2 col-md-2 p-0">
+                        <div class="menu">
+
+                                <a href="Dashboard.html" data-toggle="tooltip" data-placement="right" title="Usuario"
+                                    data-original-title="Tooltip on bottom">
+                                    <div class="btn-user"></div>
+                                </a>
+                                
+                                <a href="Inventary.html" data-toggle="tooltip" data-placement="right" title="Inventario"
+                                    data-original-title="Tooltip on bottom">
+                                    <div class="btn-inventary"></div>
+                                </a>
+                                
+                                <a href="Compras.html" data-toggle="tooltip" data-placement="right" title="Compras" data-original-title="Tooltip on bottom">
+                                    <div class="btn-purchases"></div>
+                                </a>
+                                
+                                <a href="recibos.html" data-toggle="tooltip" data-placement="right" title="Ventas" data-original-title="Tooltip on bottom">
+                                    <div class="btn-bill"></div>
+                                </a>
+                                
+                                <a href="direcciones.html" data-toggle="tooltip" data-placement="right" title="Dirección" data-original-title="Tooltip on bottom">
+                                    <div class="btn-direction"></div>
+                                </a>
+                                
+                                <a href="Landing.html" data-toggle="tooltip" data-placement="right" title="Tienda" data-original-title="Tooltip on bottom">
+                                    <div class="btn-shop"></div>
+                                </a>
+                                
+                                <a href="gestion_usuario.html" data-toggle="tooltip" data-placement="right" title="Gestión de Usuario"
+                                    data-original-title="Tooltip on bottom">
+                                    <div class="btn-management"></div>
+                                </a>
+
+                        </div>
+                    </div>
+
+                    <div class="col-10 col-md-10">
+                    
+                        <div class="container">
+                            <div class="datos">
+                    
+                                <div class="row mt-3">
+                                    <h2 class="text mt-5">¿El producto requiere Cadena de Frío?</h2>
+                                    <div class="form-check form-check-inline ml-4 mt-4 btn-radio-carga">
+                                        <input class="form-check-input btn-1" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                            value="option1">
+                                        <label class="form-check-label" for="inlineRadio1">Sí</label>
+                                    </div>
+                                    <div class="form-check form-check-inline mt-4 btn-radio-carga">
+                                        <input class="form-check-input btn-1" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                            value="option2">
+                                        <label class="form-check-label" for="inlineRadio2">No</label>
+                                    </div>
+                                </div>
+                    
+                            <div class="row">
+                                <div class="col-5 col-md-5 mt-5">
+                                        <input class="form-control nombre" type="text" placeholder="Nombre del Producto">
+                                </div>
+
+                                <div class="col-5 col-md-5 mt-5">
+                                        <input class="form-control nombre" type="text" placeholder="Código del Producto">
+                                </div>
+                            </div>
+
+                            <div class="col-10 col-md-10 mt-5">
+                                    <input class="form-control cantidad" type="text" placeholder="Cantidad">
+                            </div>
+
+                            <div class="row">
+                                    <div class="col-5 col-md-5 mt-5">
+
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="basic-addon1">Bs</span>
+                                        </div>
+                                        <input type="text" class="form-control input-bolivares" placeholder="Precio del producto" aria-label="product prices"
+                                            aria-describedby="basic-addon1">
+                                    </div>
+
+                                            
+                                    </div>
+    
+                                    <div class="col-5 col-md-5 mt-5">
+
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="basic-addon1">$</span>
+                                            </div>
+                                            <input type="text" class="form-control input-bolivares" placeholder="Precio del producto"
+                                                aria-label="product prices" aria-describedby="basic-addon1">
+                                        </div>
+
+                                    </div>
+                                </div>  
+
+                                <div class="row">
+                                <div class="col-3 col-md-3 mt-4">
+
+                                        <div class="form-group">    
+                                            <select id="inputState" class="form-control input-categoria">
+                                                <option selected>Categoria</option>
+                                                <option>...</option>
+                                            </select>
+                                        </div>
+                                        
+                                        <img class="flechita" src="iconos/flecha-down.svg" alt="flechadown">
+                                </div>
+
+                                <div class="col-3 col-md-3 mt-4 ml-4">
+
+                                        <div class="form-group">    
+                                                <select id="inputState" class="form-control input-categoria">
+                                                    <option selected>Marca</option>
+                                                    <option>...</option>
+                                                </select>
+                                        </div>
+
+                                        <img class="flechita" src="iconos/flecha-down.svg" alt="flechadown">
+                                </div>
+
+                                <div class="col-3 col-md-3 mt-4 ml-4">
+
+                                        <div class="form-group">
+                                            <select id="inputState" class="form-control input-categoria">
+                                                <option selected>Modelo</option>
+                                                <option>...</option>
+                                            </select>
+                                        </div>
+                                        <img class="flechita" src="iconos/flecha-down.svg" alt="flechadown">
+                                </div>
+
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-3 col-md-3">
+
+                                        <div class="form-group">
+                                                <select id="inputState" class="form-control input-categoria">
+                                                    <option selected>Unidad de medida</option>
+                                                    <option>...</option>
+                                                </select>
+                                        </div>
+
+                                        <img class="flechita" src="iconos/flecha-down.svg" alt="flechadown">
+                                    </div>
+                                
+                                    <div class="col-3 col-md-3 ml-4">   
+
+                                        <div class="form-group">
+                                                <select id="inputState" class="form-control input-categoria">
+                                                    <option selected>Unidad de presentación</option>
+                                                    <option>...</option>
+                                                </select>
+                                        </div>
+
+                                        <img class="flechita" src="iconos/flecha-down.svg" alt="flechadown">
+                                    </div>
+                                
+                                    
+                                    <div class="col-3 col-md-3 ml-5">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <button class="btn dropdown-toggle dropdown-gramos" type="button" data-toggle="dropdown"
+                                                aria-haspopup="true" aria-expanded="false">Gramos</button>
+                                            <div class="dropdown-menu">
+                                                <option>Miligramos</option>
+                                                <option>Kilogramos</option>
+                                            </div>
+                                        </div>
+                                        <input type="text" class="form-control input-gramos" aria-label="Text input with dropdown button" placeholder="Peso" style="width: 80px">
+                                    </div>
+                                </div>
+                                
+                                </div>
+
+                                <div class="row">
+
+                                        <div class="col-3 col-md-3 ml-4">
+                                            <div class="input-group mb-3">
+                                                <div class="input-group-prepend">
+                                                    <button class="btn dropdown-toggle dropdown-gramos" type="button" data-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false">Centímetros</button>
+                                                    <div class="dropdown-menu">
+                                                        <option>Milímetros</option>
+                                                        <option>Metros</option>
+                                                    </div>
+                                                </div>
+                                                <input type="text" class="form-control input-gramos" aria-label="Text input with dropdown button" placeholder="Profundidad">
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-3 col-md-3 ml-4">  
+                                            <div class="input-group mb-3">
+                                                <div class="input-group-prepend">
+                                                    <button class="btn dropdown-toggle dropdown-gramos" type="button" data-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false">Centímetros</button>
+                                                    <div class="dropdown-menu">
+                                                        <option>Milímetros</option>
+                                                        <option>Metros</option>
+                                                    </div>
+                                                </div>
+                                                <input type="text" class="form-control input-gramos" aria-label="Text input with dropdown button"
+                                                    placeholder="Ancho">
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-3 col-md-3 ml-4">
+                                            <div class="input-group mb-3">
+                                                <div class="input-group-prepend">
+                                                    <button class="btn dropdown-toggle dropdown-gramos" type="button" data-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false">Centímetros</button>
+                                                    <div class="dropdown-menu">
+                                                        <option>Milímetros</option>
+                                                        <option>Metros</option>
+                                                    </div>
+                                                </div>
+                                                <input type="text" class="form-control input-gramos" aria-label="Text input with dropdown button"
+                                                    placeholder="Altura">
+                                            </div>
+                                        </div>
+                                </div>
+
+                                <h2 class="atributo-text ml-2 mt-4">
+                                    Atributo del Producto
+                                </h2>
+
+                                <div class="row">
+                                        <div class="col-3 col-md-3 mt-5 ml-1">
+                                                <input class="form-control input-categoria mt-n4" type="text" placeholder="Diámetro del Rin">
+                                        </div>
+        
+                                        <div class="col-3 col-md-3 mt-5 ml-4">
+                                                <input class="form-control input-categoria mt-n4" type="text" placeholder="Ancho del Caucho">
+                                        </div>
+        
+                                        <div class="col-3 col-md-3 mt-5 ml-4">
+                                                <input class="form-control input-categoria mt-n4" type="text" placeholder="Perfil del Caucho">
+                                        </div>
+        
+                                </div>
+
+                            <div class="col-10 col-md-10 mt-4 ml-n2">
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1"></label>
+                                    <textarea class="form-control text-area" id="exampleFormControlTextarea1" rows="6" placeholder="Puede agregar otras especificaciones que no estén contenidas en los campos anteriores"></textarea>
+                                </div>
+                                </form>
+                            </div>
+
+                            <h2 class="atributo-text ml-2 mt-5">
+                                    Cargar Fotos del Producto
+                            </h2>
+
+                    
+                        <div class="row ml-2 mt-4">
+                            <div class="col-3 col-md-3 ml-3">
+
+                                <div class="cuadro">
+                                    
+                                </div>
+
+                            </div>
+
+                            <div class="col-3 col-md-3 ml-5">
+
+                                    <div class="cuadro">
+                                        
+                                    </div>
+
+                            </div>
+
+                            <div class="col-3 col-md-3 ml-5">   
+
+                                    <div class="cuadro">
+                                        
+                                    </div>
+
+                            </div>
+                        </div>
+
+                        <h2 class="atributo-text ml-2 mt-5">
+                                Cargar Video Promocional
+                        </h2>
+
+                        <div class="col-12 col-md-12 mt-4 ml-5">
+                            <div class="cuadro-video">
+
+                            </div>
+                        </div>
+
+                    <div class="col-10 col-md-10">
+                        <h2 class="atributo-text ml-2 mt-4 text-center">
+                            Ó
+                        </h2>
+                    </div>
+
+                    <div class="col-10 col-md-10 mt-4">
+
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon1">URL</span>
+                            </div>
+                            <input type="text" class="form-control input-youtube" placeholder="Copie el URL de su video aquí"
+                                aria-label="product prices" aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+
+                    <h2 class="atributo-text ml-2 mt-5">
+                        Dirección de almacen
+                    </h2>
+
+                    <div class="row">
+                            <div class="col-3 col-md-3 mt-2">
+                                    <div class="form-group">
+                                            <select id="inputState" class="form-control input-categoria">
+                                                <option selected>Estado</option>
+                                                <option>...</option>
+                                            </select>
+                                    </div>
+                                    <img class="flechita" src="iconos/flecha-down.svg" alt="flechadown">
+                            </div>
+
+                            <div class="col-3 col-md-3 mt-2 ml-4">
+                                    <div class="form-group">
+                                            <select id="inputState" class="form-control input-categoria">
+                                                <option selected>Municipio</option>
+                                                <option>...</option>
+                                            </select>
+                                    </div>
+                                    <img class="flechita" src="iconos/flecha-down.svg" alt="flechadown">
+                            </div>
+
+                            <div class="col-3 col-md-3 mt-2 ml-4">
+                                    <div class="form-group">
+                                            <select id="inputState" class="form-control input-categoria">
+                                                <option selected>Ciudad</option>
+                                                <option>...</option>
+                                            </select>
+                                    </div>
+                                    <img class="flechita" src="iconos/flecha-down.svg" alt="flechadown">
+                            </div>
+                    </div>
+
+                    <div class="col-9 col-md-9">
+
+                            <input class="form-control input-ciudad" type="text" placeholder="Dirección">
+
+                    </div>
+
+                    <div class="col-9 col-md-9">
+
+                            <input class="form-control input-postal mt-5" type="text" placeholder="Código Postal">
+
+                    </div>
+
+                    <div class="col-9 col-md-9 mb-5">
+
+                            <button type="button" class="cargar mt-3"
+                            data-toggle="modal" data-target="#Producto_Modal">Cargar Producto</button>
+
+                    </div>
+
+                    
+                    
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title titulo-tasa mt-3 ml-3" id="exampleModalLabel">Tasa de Cambio</h5>
+                    
+                                    <div class="row mt-5 ml-n5">
+                                        <h5 class="subtitle">Tasa Actual</h5>
+                                        <h5 class="subtitle-1">Bs. 21.700,00</h5>
+                                    </div>
+                    
+                                </div>
+                                <div class="modal-body">
+                    
+                                    <h5 class="define ml-4">Define la Nueva Tasa</h5>
+                                    <div class="bolivares">Bs.</div>
+                                    <input class="form-control monto-tasa" type="text" placeholder="Monto de la Tasa">
+                    
+                                    <h5 class="define ml-4 mt-n4">Ingrese PIN de seguridad</h5>
+                                    <input class="form-control monto-pin" type="text" placeholder="PIN de 4 dígitos">
+                    
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn-tasa-1" data-dismiss="modal">Guardar Tasa</button>
+                                    <button type="button" class="btn-tasa-2">Cancelar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal fade" id="Producto_Modal" tabindex="-1" role="dialog" aria-labelledby="Producto_ModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content-producto-exitosa">
+                                <div class="modal-header">
+                    
+                                </div>
+                                <div class="modal-body">
+                    
+                                    <div class="col-12 col-md-12 text-center">
+                                        <div class="imagen">
+                                            <img src="iconos/Carga_Producto.gif" alt="imagen-producto-exitosa" style="height: 420px; width: 420px;">
+                                        </div>
+                                        <h2 class="text-exitosa text-center">¡Su carga de producto fue exitosa!</h2>
+                                    </div>
+                    
+                                </div>
+                                <div class="modal-footer">
+                    
+                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+
+
+</body>
+
+
+
+</html>

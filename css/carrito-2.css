@@ -1,0 +1,201 @@
+body {
+    margin: 0 auto;
+    background-color: white;
+    width: 100%;
+}
+
+.inicio-1{
+    height: 100px;
+    width: 100%;
+    background-image: url(..//iconos/ubiimarket_1.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: none;
+    background-color: transparent;
+}
+
+.empresa{
+    height: 45px;
+    width: 25px;
+    border: 2px solid #cbd2da;
+    background-color: transparent;
+    color: #424242;
+    border-radius: 45px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    padding: 7px; 
+    padding-right: 6px;
+    text-align: center;
+}
+
+.carrito{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    background-color: #ea6416;
+    border: 2px solid #ea6416;
+    margin-top: 10px;
+    background-image: url(..//iconos/carrito.svg);
+    background-position: center;
+    background-size: 60% 60%;
+    background-repeat: no-repeat;
+
+}
+
+.carrito:hover{
+    background-color: #ea6416;
+    border: 2px solid #ea6416;
+}
+
+.carrito:hover{
+    outline: none;
+}
+
+
+.inicio-1:focus{
+    outline: none;
+}
+
+.menu{
+    height: 700px;
+    width: 140px;
+    background-color: #cbd2da;
+    border-top-right-radius: 75px;
+    border-bottom-right-radius: 75px;
+    padding-top: 5px;
+}
+
+.fabricantes-1{
+    height: 125px;
+    width: 125px;
+}
+
+.Firestone{
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 50px;
+    color: #ea6416;
+}
+
+.estrellita{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    right: -85px;
+    top: -55px;
+}
+
+.perfil{
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 25px;
+    color: #ea6416;
+}
+
+.text{
+    color:#ea6416;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 15px;
+}
+
+.caja{
+    height: 600px;
+    width: 1520px;
+    border: 2px solid #cbd2da;
+    border-radius: 45px;
+    background-color: transparent;
+    margin-left: -20px;
+    position: relative;
+    left: 25px;
+}
+
+.linea-inventario{
+    height: 1px;
+    width: 1260px;
+    border-radius: 45px;
+    background-color: #ea6416;
+    position: relative;
+    left: 95px;
+    margin-top: 25px;
+}
+
+.total{
+    color:#424242;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    float: right;
+}
+
+.select-direccion{
+    height: 45px;
+    width: 1200px;
+    border: 2px solid #ea6416;
+    border-radius: 45px;
+    background-color: transparent;
+
+}
+
+.terminos{
+    color: #ea6416;
+}
+
+.ubiimovil, .transferencia, .credito{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: 2px solid #424242;
+    position: relative;
+    left: 45px;
+}
+
+.ubiimovil{
+    background-color: white;
+    background-image: url(..//iconos/debit_1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60% 60%;
+}
+
+.transferencia{
+    background-color: white;
+    background-image: url(..//iconos/transfer_1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60% 60%;
+}
+
+.credito{
+    background-color: white;
+    background-image: url(..//iconos/card_1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60% 60%;
+}
+
+.seleccione{
+    color:#424242;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 30px;
+}
+
+.ubiimovil:hover{
+    background-image: url(..//iconos/debit_naranja.svg);
+    border: 2px solid #ea6416;
+
+} 
+
+.transferencia:hover{
+    background-image: url(..//iconos/transfer_naranja.svg);
+    border: 2px solid #ea6416;
+
+}
+
+.credito:hover{
+    background-image: url(..//iconos/card_naranja.svg);
+    border: 2px solid #ea6416;
+
+}
+
+.ubiimovil:focus, .transferencia:focus, .credito:focus{
+    outline: none;
+}
+
+

@@ -1,0 +1,382 @@
+body {
+    margin: 0 auto;
+    background-color: white;
+    width: 100%;
+}
+
+.inicio-1{
+    height: 100px;
+    width: 100%;
+    background-image: url(..//iconos/ubiimarket_1.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: none;
+    background-color: transparent;
+}
+
+.empresa{
+    height: 45px;
+    width: 25px;
+    border: 2px solid #cbd2da;
+    background-color: transparent;
+    color: #424242;
+    border-radius: 45px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    padding: 7px; 
+    padding-right: 6px;
+    text-align: center;
+}
+
+.carrito{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 2px solid #cbd2da;
+    margin-top: 10px;
+    background-image: url(..//iconos/carrito.svg);
+    background-position: center;
+    background-size: 60% 60%;
+    background-repeat: no-repeat;
+
+}
+
+.menu{
+    height: 700px;
+    width: 140px;
+    background-color: #cbd2da;
+    border-top-right-radius: 75px;
+    border-bottom-right-radius: 75px;
+    padding-top: 5px;
+}
+
+.fabricantes-1{
+    height: 125px;
+    width: 125px;
+}
+
+.Firestone{
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 50px;
+    color: #ea6416;
+}
+
+.estrellita{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    right: -85px;
+    top: -55px;
+}
+
+.perfil{
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 25px;
+    color: #ea6416;
+}
+
+.text{
+    color:#ea6416;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 15px;
+}
+
+.btn-user, .btn-inventary, .btn-purchases, .btn-bill, .btn-direction, .btn-shop, .btn-management{
+    height: 80px;
+    width: 80px;
+    padding: 15px;
+    background-image: url(..//iconos/user_1.svg);
+    background-position: center;
+    background-size: 60% 60%;
+    background-repeat: no-repeat;
+    margin-left: 27px;
+    margin-top: 16px;
+    background-color: transparent;
+    border: none;
+}
+
+.btn-inventary{
+    background-image: url(..//iconos/inventario.svg);
+    background-size: 70% 70%;
+}
+
+.btn-purchases{
+    background-image: url(..//iconos/compras.svg);
+}
+
+.btn-bill{
+    background-image: url(..//iconos/facturas.svg);
+}
+
+.btn-direction{
+    background-image: url(..//iconos/direccion.svg);
+    background-size: 70% 70%;
+}
+
+.btn-shop{
+    background-image: url(..//iconos/tienda.svg);
+    background-size: 70% 70%;
+}
+
+.btn-management{
+    background-image: url(..//iconos/gestion.svg);
+    background-size: 70% 70%;
+}
+
+.btn-user:focus, .btn-inventary:focus, .btn-purchases:focus, .btn-bill:focus, .btn-direction:focus, .btn-shop:focus, .btn-management:focus, .inicio:focus, .carrito:focus, .inicio-1:focus, .btn-act:focus, .aceptar:focus, .cancelar:focus{
+    outline: none;
+}
+
+.btn-user:hover{
+    background-image: url(..//iconos/usernaranja.svg);
+}
+
+.btn-inventary:hover{
+    background-image: url(..//iconos/inventarynaranja.svg);
+}
+
+.btn-purchases:hover{
+    background-image: url(..//iconos/comprasnaranja.svg);
+}
+
+.btn-bill:hover{
+    background-image: url(..//iconos/facturasnaranja.svg);
+}
+
+.btn-direction:hover{
+    background-image: url(..//iconos/direccionnaranja.svg);
+}
+
+.btn-shop:hover{
+    background-image: url(..//iconos/tiendanaranja.svg);
+}
+
+.btn-management:hover{
+    background-image: url(..//iconos/gestionnaranja.svg);
+}
+
+.carrito:hover{
+    background-color: #ea6416;
+    border: 2px solid #ea6416;
+}
+
+
+.btn-product{
+    height: 45px;
+    width: 200px;
+    border: 2px solid #ea6416;
+    background-color: transparent;
+    border-radius: 45px;
+    color: #ea6416;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+
+}
+
+.btn-product:hover{
+    background-color: #ea6416;
+    color: white;
+    border: 2px solid #ea6416;
+}
+
+.btn-product:focus{
+    outline: none;
+
+}
+
+.btn-user:focus{
+    background-image: url(..//iconos/usernaranja.svg);
+}
+
+.btn-inventary:focus{ 
+    background-image: url(..//iconos/inventarynaranja.svg);
+}
+
+.btn-purchases:focus{
+    background-image: url(..//iconos/comprasnaranja.svg);
+}
+
+.btn-bill:focus{
+    background-image: url(..//iconos/facturasnaranja.svg);
+}
+
+.btn-direction:focus{
+    background-image: url(..//iconos/direccionnaranja.svg);
+}
+
+.btn-shop:focus{
+    background-image: url(..//iconos/tiendanaranja.svg);
+}
+
+.btn-management:focus{
+    background-image: url(..//iconos/gestionnaranja.svg);
+}
+
+.input-usuario{
+    height: 45px;
+    width: 400px;
+    border: 2px solid #ea6416;
+    background-color: transparent;
+    border-radius: 45px;
+}
+
+.input-correo{
+    height: 45px;
+    width: 400px;
+    border: 2px solid #ea6416;
+    background-color: transparent;
+    border-radius: 45px;
+    position: relative;
+    left: -45px;
+    top: 25px;
+}
+
+.input-nombre-usuario{
+    height: 45px;
+    width: 400px;
+    border: 2px solid #ea6416;
+    background-color: transparent;
+    border-radius: 45px;
+    position: relative;
+    left: -95px;
+    top: 25px;
+}
+
+.input-contrasena{
+    height: 45px;
+    width: 400px;
+    border: 2px solid #ea6416;
+    background-color: transparent;
+    border-radius: 45px;
+    position: relative;
+    left: 15px;
+    top: 55px;
+}
+
+.input-confirme{
+    height: 45px;
+    width: 400px;
+    border: 2px solid #ea6416;
+    background-color: transparent;
+    border-radius: 45px;
+    position: relative;
+    left: -45px;
+    top: 55px;
+}
+
+
+.titulos{
+    color: #424242;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 95px;
+}
+
+.titulos-correo{
+    color: #424242;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 95px;
+    top: 25px;
+}
+
+.titulos-usuario{
+    color: #424242;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 45px;
+    top: 25px;
+}
+
+.titulos-contrasena{
+    color: #424242;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 95px;
+    top: 65px;
+}
+
+.titulos-confirme{
+    color: #424242;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 105px;
+    top: 65px;
+}
+
+.permisos{
+    color: #424242;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 95px;
+    left: 120px; 
+}
+
+.btn-permisos{
+    height: 45px;
+    width: 170px;
+    border: 2px solid #ea6416;
+    color: #ea6416;
+    border-radius: 45px;
+    background-color: transparent;
+    position: relative;
+    top: 125px;
+    left: 100px;
+}
+
+.btn-permisos-direccion{
+    height: 45px;
+    width: 170px;
+    border: 2px solid #ea6416;
+    color: white;
+    border-radius: 45px;
+    background-color: #ea6416;
+    position: relative;
+    top: 125px;
+    left: 100px;
+}   
+
+.btn-permisos:hover{
+    color: white;
+    background-color: #ea6416;
+    border: 2px solid #ea6416;
+}
+
+.custom-switch{
+    position: relative;
+    top: 185px;
+    left: 300px;
+    color: #424242;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+
+}
+
+.btn-dar{
+    height: 45px;
+    width: 250px;
+    background-color: #ea6416;
+    color: white;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    border-radius: 45px;
+    position: relative;
+    top: 220px;
+    left: 420px;
+
+}
+
+.btn-permisos:focus{
+    outline: none;
+}
+
+.btn-dar:focus{
+    outline: none;  
+}

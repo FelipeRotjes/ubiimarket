@@ -1,0 +1,136 @@
+.Titulo {
+    color: #424242;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.header_img {
+    height: 45px;
+    width: 45px;
+    display: block;
+    margin-left: auto;
+    margin-right: 210px;
+    padding-left: -35px;
+}
+
+.flecha {
+    background-color: white;
+    background-image: url(..//iconos/flecha_1.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 0;
+    margin-left: 15px;
+
+}
+
+.modal-content-retail {
+    /* height: 360px; */
+    width: 100%;
+    border-radius: 3rem !important;
+    border-top: 0 none;
+    box-shadow: 5px 5px 20px #c7ced6;
+}
+
+.modal-footer {
+    justify-content: center;
+    border-top: 0 none;
+}
+
+.modal-header {
+    border-bottom: 0 none;
+}
+
+.modal-header .close {
+    margin-right: -10px;
+    margin-top: 15px;
+}
+
+.Us,
+.Cont {
+    height: 45px;
+    width: 300px;
+    border-radius: 45px;
+    border: 2px solid #ea6416;
+    background-color: transparent;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 25px;
+    color: #424242;
+    text-align: start;
+    padding: 10px;
+
+}
+
+.Us {
+    margin-top: -25px;
+}
+
+.Cont {
+    margin-top: 25px;
+}
+
+.Icon3 {
+    background-image: url(..//iconos/usuario.svg);
+    background-repeat: no-repeat;
+    background-size: 80% 90%;
+    margin-top: -25px;
+}
+
+.Icon4 {
+    background-image: url(..//iconos/contrasena.svg);
+    background-repeat: no-repeat;
+    background-size: 80% 90%;
+    margin-top: 20px;
+}
+
+
+.ingresar {
+    height: 45px;
+    width: 150px;
+    border: 2px solid #ea6416;
+    border-radius: 45px;
+    background-color: transparent;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    color: #424242;
+    text-align: center;
+    margin-top: 25px;
+    text-decoration: none;
+
+}
+
+.ingresar:hover {
+    background-color: #ea6416;
+    color: white;
+    text-decoration: none;
+}
+
+
+.aun-retail {
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 15px;
+    color: #424242;
+    text-align: center;
+}
+
+.registro-retail {
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 15px;
+    color: #ea6416;
+    text-align: center;
+    margin-left: 10px;
+    text-decoration-line: none;
+}
+
+.registro:hover {
+    color: #ea6416;
+}
+
+.modal-backdrop {
+    background-color: #ea6416;
+}
+
+.button:focus, .ingresar:focus, .Us:focus, .Cont:focus, .flecha:focus {
+    outline: none;
+}

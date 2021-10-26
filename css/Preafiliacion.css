@@ -1,0 +1,126 @@
+.fabricantes-icon{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: #ea6416;
+    border: 2px solid #ea6416;
+    background-image: url(..//iconos/fabricantes-blanco.svg);
+    background-position: center;
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+}
+
+.text-re-fabri{
+    color: #ea6416;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.text{
+    color: #424242;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 15px;
+}
+
+.razon-social, .sector, .cuenta, .codigo, .estado, .ciudad, .municipio, .direccion, .representante, .documento, .telefono, .correo, .pin{
+    height: 45px;
+    border: 2px solid #ea6416;
+    background-color: transparent;
+    border-radius: 45px;
+}
+
+.J{
+    height: 45px;
+    width: 85px;
+    border-radius: 20px;
+}
+
+.rif{
+    position: absolute;
+    left: 780px;
+    top: 25px;
+    height: 45px;
+    width: 380px;
+    border: 2px solid #ea6416;
+    background-color: transparent;
+    border-radius: 45px;
+    margin-top: 45px;
+}
+
+.cuenta, .codigo{
+    width: 520px;
+    margin-left: 10px;
+
+}
+
+.estado, .ciudad, .municipio{
+    width: 330px;
+    margin-left: 10px;
+}
+
+.V{
+    height: 45px;
+    width: 85px;
+    border-radius: 20px;
+}
+
+.documento{
+        position: absolute;
+        left: 140px;
+        top: 25px;
+        height: 45px;
+        width: 410px;
+        border: 2px solid #ea6416;
+        background-color: transparent;
+        border-radius: 45px;
+        margin-top: 48px;
+}
+
+.telefono, .correo{
+    width: 540px;
+}
+
+.pin{
+    width: 450px;
+    margin-left: 320px;
+}
+
+.text2{
+    color: #424242;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+}
+
+.text3{
+    color: #424242;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 14px;
+}
+
+.docu{
+    height: 200px;
+    width: 200px;
+    background-color: transparent;
+    border-radius: 45px;
+    border: 2px solid #ea6416;
+    border-style: dashed;
+    margin-top: 25px;
+    background-image: url(../iconos/cruz.svg);
+    background-position: center;
+    background-size: 20% 20%;
+    background-repeat: no-repeat;
+}
+
+.registrate-pre{
+    height: 45px;
+    width: 450px;
+    background-color: #ea6416;
+    border: 2px solid #ea6416;
+    border-radius: 45px;
+    color: white;
+}
+
+.registrate-pre:focus{
+    outline: none;
+}

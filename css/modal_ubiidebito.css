@@ -1,0 +1,113 @@
+.ubii {
+    height: 550px;
+    width: 100%;
+    border-radius: 3rem !important;
+    border-top: 0 none;
+    background-image: url(..//multimedia/fondo-naranja.png);
+    background-position-y: -50px;
+    padding: 15px;      
+}
+
+.modal-footer {
+    justify-content: center;
+    border-top: 0 none;
+}
+
+.ubii-header {
+    height: 100px;
+    border-bottom: 0 none;
+    justify-content: center;
+    background-image: url(..//multimedia/ubiimovil.svg);
+    background-position: center;
+    background-size: 75% 75%;
+    background-repeat: no-repeat;
+}
+
+.modal-backdrop {
+    background-color: #ea6416;
+}
+
+/* .modal-title-ubii{
+    color: white;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    
+} */
+
+.ubii-text{
+    color: white;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 15px;
+}
+
+.monto{
+    color: white;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 15px;
+}
+
+.datos{
+    color: white;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 15px;
+}
+
+.v{
+    height: 45px;
+    width: 80px;
+    border: 2px solid white;
+    background-color: white;
+    color: #424242;
+}
+
+.input-cedula{
+    height: 45px;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 5px;
+    position: relative;
+    left: 4px;
+}
+
+.banco{
+    height: 45px;
+    width: 200px;
+    border: 2px solid white;
+    background-color: white;
+    color: #424242;;
+    position: relative;
+    left: 65px;
+}
+
+.cuenta{
+    height: 45px;
+    width: 200px;
+    border: 2px solid white;
+    background-color: white;
+    color: #424242;
+    position: relative;
+    left: 70px;
+}
+
+
+.btn-enviar{
+    height: 45px;
+    width: 120px;
+    background-color: #00aaeb;
+    border: 2px solid #00aaeb;
+    border-radius: 45px;
+    color: white;
+}
+
+.btn-cancelar-ubii{
+    height: 45px;
+    width: 120px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 45px;
+    color: #00aaeb;
+}
+
+.btn-enviar:focus, .btn-cancelar:focus{
+    outline: none;
+}

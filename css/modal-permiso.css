@@ -1,0 +1,64 @@
+.modal-content-permiso {
+    width: 100%;
+    border-radius: 3rem !important;
+    border-top: 0 none;
+    box-shadow: 5px 5px 20px #c7ced6;
+    background-color: white;
+    padding: 15px;  
+}
+
+.modal-footer {
+    justify-content: center;
+    border-top: 0 none;
+}
+
+.modal-header {
+    border-bottom: 0 none;
+    justify-content: center;
+}
+
+.modal-backdrop {
+    background-color: #ea6416;
+}
+
+.modal-title{
+    color: #424242;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+}
+
+.subtitle{
+    color: #424242;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+}
+
+.pin{
+    border: 2px solid #ea6416;
+    border-radius: 45px;
+    height: 45px;
+    width: 250px;
+    justify-content: center;
+}
+
+.btn-confirmar{
+    background-color: #ea6416;
+    border: 2px solid #ea6416;
+    color: white;
+    border-radius: 45px;
+    height: 45px;
+    width: 120px;
+}
+
+.btn-cancelar{
+    background-color: transparent;
+    border: 2px solid #ea6416;
+    color:#ea6416;
+    border-radius: 45px;
+    height: 45px;
+    width: 120px;
+}
+
+.btn-confirmar:focus, .btn-cancelar:focus{
+    outline: none;
+}

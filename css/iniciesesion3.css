@@ -1,0 +1,146 @@
+.Titulo {
+    color: #424242;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* .header_img {
+    height: 45px;
+    width: 45px;
+    display: block;
+    margin-left: auto;
+    margin-right: 210px;
+    padding-left: -35px;
+} */
+
+.flecha {
+    background-color: white;
+    background-image: url(..//iconos/flecha_1.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 0;
+    margin-left: 15px;
+
+}
+
+.modal-content {
+    /* height: 360px; */
+    width: 100%;
+    border-radius: 3rem !important;
+    border-top: 0 none;
+    box-shadow: 5px 5px 20px #c7ced6;
+}
+
+.modal-footer {
+    justify-content: center;
+    border-top: 0 none;
+}
+
+.modal-header {
+    border-bottom: 0 none;
+}
+
+.modal-header .close {
+    margin-right: -10px;
+    margin-top: 15px;
+}
+
+.Co,
+.Con {
+    height: 45px;
+    width: 280px;
+    border-radius: 45px;
+    border: 2px solid #ea6416;
+    background-color: transparent;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 25px;
+    color: #424242;
+    text-align: start;
+    padding: 10px;
+    margin-left: 15px;
+
+}
+
+.Co {
+    margin-top: -25px;
+}
+
+.Con {
+    margin-top: 25px;
+}
+
+.Icon1,
+.Icon2 {
+    background-image: url(..//iconos/codigo.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: -10px;
+}
+
+.Icon2 {
+    background-image: url(..//iconos/contrasena.svg);
+    background-size: 100% 90%;
+    margin-top: 20px;
+}
+
+.ingresar {
+    height: 45px;
+    width: 150px;
+    border: 2px solid #ea6416;
+    border-radius: 45px;
+    background-color: transparent;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    color: #424242;
+    text-align: center;
+    margin-top: 25px;
+    text-decoration-style: none;
+    padding: 5px;
+}
+
+.ingresar:hover {
+    background-color: #ea6416;
+    color: white;
+    text-decoration-style: none;
+}
+
+
+.aun {
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 15px;
+    color: #424242;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.registro {
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 15px;
+    color: #ea6416;
+    text-align: center;
+    margin-top: -12px;
+    margin-left: 10px;
+    text-decoration-line: none;
+}
+
+.registro:hover {
+    color: #ea6416;
+}
+
+.modal-backdrop {
+    background-color: #ea6416;
+}
+
+.button:focus, .ingresar:focus, .Co:focus, .Con:focus, .flecha:focus {
+    outline: none;
+}
+
+@media (max-width: 700px) {
+
+    .header_img{
+        margin-left: 100px;
+    }
+
+}

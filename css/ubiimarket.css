@@ -1,0 +1,636 @@
+body {
+    margin: 0 auto;
+    background-color: white;
+}
+
+.z-index1 {
+    z-index: 1;
+}
+
+.margin-top-container {
+    margin-top: -140px;
+}
+
+.facebook, .instagram, .twitter {
+    height: 65px;
+    width: 65px;
+    background-image: url(../iconos/facebook1.png);
+    background-color: transparent;
+    border: 2px solid #ea6416;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position-x: center;
+    background-position-y: center;
+    margin-top: 25px;
+}
+
+.facebook:hover {
+    background-image: url(../iconos/facebook2.png);
+    background-color: #ea6416;
+    border: 2px solid white;
+}
+
+.instagram {
+    background-image: url(../iconos/instagram1.png);
+    background-repeat: no-repeat;
+    background-size: 55%;
+    margin-left: 20px;
+    
+}
+
+.instagram:hover {
+    background-image: url(../iconos/instagram2.png);
+    background-color: #ea6416;
+    border: 2px solid white;
+}
+
+.twitter {
+    background-image: url(../iconos/twitter1.png);
+    background-repeat: no-repeat;
+    background-size: 65%;
+    margin-left: 20px;
+}
+
+.twitter:hover {
+    background-image: url(../iconos/twitter2.png);
+    background-color: #ea6416;
+    border: 2px solid white;
+}
+
+.registrate, .inicio {
+    height: 45px;
+    width: 200px;
+    background-color: transparent;
+    border: 2px solid #ea6416;
+    color: #424242;
+    border-radius: 45px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: -30px;
+}
+
+.registrate:hover {
+    color: white !important;
+    background-color: #ea6416;
+    border: 2px solid white;
+}
+
+.inicio {
+    border: 2px solid #424242;
+    color: #ea6416;
+    margin-left: 30px;
+}
+
+.inicio:hover {
+    background-color: #424242;
+    border: 2px solid white;
+    color: white;
+}
+
+.imagen {
+    position: relative;
+    top: -45px;
+    margin-top: -265px;
+    z-index: -1;
+}
+
+.contenedor-naranja {
+    height: 250px;
+    width: 100%;
+    background-color: #ea6416 !important;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    position: relative;
+    top: -48px;
+}
+
+.redondopadre {
+    width: 100%;
+    margin: auto;
+    padding-top: 25px;
+}
+
+.boton {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 100px;
+    border: 2px solid white;
+    margin: auto;
+    display: block;
+    background-image: url(../iconos/fabricantes1.svg);
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position-x: center;
+    background-position-y: center;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background: #ea6416;
+    border: 2px solid white;
+    background-image: url(../iconos/fabricantes3_1.svg);
+    background-size: 65%;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat; 
+    cursor: pointer;
+}
+
+.texto {
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    padding: 5px;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+.containerblanco {
+    height: 250px;
+    width: 100%;
+    background-color: white !important;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+.botonespadre {
+    width: 100%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.boton1, .boton2 {
+    height: 65px;
+    width: 230px;
+    background-color: white;
+    border-radius: 100px;
+    margin: auto;
+    display: inline-block;
+    vertical-align: top;
+    border: solid 2px #424242;
+    background-image: url(../iconos/apple.png);
+    background-repeat: no-repeat;
+    background-size: 180px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.boton2 {
+    background-image: url(../iconos/android1.png);
+}
+
+.boton1:hover {
+    background-color: #ea6416;
+    border: 2px solid white;
+    background-image: url(../iconos/appleblanco.png);
+    background-repeat: no-repeat;
+    background-size: 180px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.boton2:hover {
+    background-color: #ea6416;
+    border: 2px solid white;
+    background-image: url(../iconos/androidblanco1.png);
+    background-repeat: no-repeat;
+    background-size: 180px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.containergris {
+    margin: 0 auto;
+    width: 100%;
+    height: 580px;
+    background-color: #71808f;
+}
+
+.imagen2 {
+    background-image: url(../multimedia/Ubiimarket_App_Front1.gif);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 80% 100%;
+    background-position-x: center;
+}
+
+.containergrisoscuro {
+    margin: 0 auto;
+    width: 100%;
+    height: 330px;
+    background-color: #424242;
+}
+
+.redondito1, .redondito2, .redondito3 {
+    height: 250px;
+    width: 250px;
+    border-radius: 150px;
+    margin: auto;
+    display: block;
+    margin-top: 35px;
+    border: solid 2px #fff;
+    background: #fff;
+}
+
+.containernaranja2 {
+    min-height: 380px;
+    width: 100%;
+    background-color: #ea6416;
+}
+
+.cuadro1, .cuadro2, .cuadro3 {
+    height: 180px;
+    width: 250px;
+    padding: 30px;
+    border: 2px solid white;
+    border-radius: 35px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+}
+
+.cuadro2 {
+    width: 350px;
+}
+
+.cuadro3 {
+    width: 270px;
+}
+
+.h2, .h3, .h4 {
+    color: white;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 45px;
+}
+
+.containergrisoscuro2 {
+    height: 420px;
+    width: 100%;
+    background-color: #71808f;
+    border-bottom-right-radius: 140px;
+    border-bottom-left-radius: 140px;
+}
+
+.botonfooter1, .botonfooter2 {
+    height: 65px;
+    width: 230px;
+    background-color: white;
+    border-radius: 100px;
+    margin: auto;
+    display: block;
+    border: solid 2px #424242;
+    background-image: url(../iconos/apple.png);
+    background-repeat: no-repeat;
+    background-size: 180px;
+    background-position-x: center;
+    background-position-y: center;
+    margin-top: 100px;
+}
+
+.botonfooter2 {
+    background-image: url(../iconos/android.png);
+    margin-top: 15px;
+}
+
+.botonfooter1:hover {
+    background-color: #ea6416;
+    border: 2px solid white;
+    background-image: url(../iconos/appleblanco.png);
+    background-repeat: no-repeat;
+    background-size: 180px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.botonfooter2:hover {
+    background-color: #ea6416;
+    border: 2px solid white;
+    background-image: url(../iconos/androidblanco.png);
+    background-repeat: no-repeat;
+    background-size: 180px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.Contactos, .Informacion, .Terminos, .Productos {
+    color: white;
+    margin-top: 45px;
+    margin-left: 150px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 25px;
+}
+
+.caracas {
+    color: white;
+    margin-top: 25px;
+    margin-left: 145px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 17px;
+}
+
+.Informacion {
+    margin-left: 120px;
+}
+
+.nosotros, .tiendas, .formas, .aliados, .envios {
+    color: white;
+    margin-top: 45px;
+    margin-left: 110px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 17px;
+}
+
+.tiendas, .formas, .aliados, .envios {
+    margin-top: 25px;
+}
+
+.Terminos, .Productos {
+    margin-left: 100px;
+    
+}
+
+.politica, .condiciones, .tipos, .proveedores, .mayor, .detal, .franquicias {
+    color: white;
+    margin-top: 45px;
+    margin-left: 95px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 17px;
+}
+
+.condiciones, .proveedores, .mayor, .detal, .franquicias {
+    margin-top: 25px;
+
+}
+
+.iconos {
+    margin-top: 25px;
+    margin-left: 110px;
+}
+
+.icono1, .icono2, .icono3, .icono4, .icono5, .icono6 {
+    background-image: url(../iconos/correo_4.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #71808f;
+    border: 1px solid #71808f;
+    height: 50px;
+    width: 50px;
+}
+
+.icono2 {
+    background-image: url(../iconos/telefono_1.svg);
+}
+
+.icono3 {
+    background-image: url(../iconos/whatsapp_1.svg);
+}
+
+.icono4 {
+    background-image: url(../iconos/twitter_2.svg);
+}
+
+.icono5 {
+    background-image: url(../iconos/instagram_1.svg);
+
+}
+
+.icono6 {
+    background-image: url(../iconos/facebook_1.svg);
+}
+
+.copyright {
+    color: white;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 12px;
+    padding: 53px 53px 0 53px;
+    text-align: center;
+    margin-top: -25px;
+}
+
+.inicio:focus, .registrate:focus, .facebook:focus, .instagram:focus, .twitter:focus, .boton:focus, .boton1:focus, .boton2:focus, .redondito1:focus, .redondito2:focus, .redondito3:focus, .icono1:focus, .icono2:focus, .icono3:focus, .icono4:focus, .icono5:focus, .icono:focus, .botonfooter1:focus, .botonfooter2:focus, .fabricantes:focus, .retail.focus {
+    outline: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background:#ea6416;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #cbd2da;
+}
+
+@media (max-width: 768px) {
+
+    .facebook, .instagram, .twitter {
+        height: 50px;
+        width: 50px;
+    }
+
+    .registrate, .inicio {
+        width: 50%;
+        font-size: 20px;
+    }
+
+    .containergris {
+        height: 360px;
+
+    }
+
+    .imagen2 {
+        background-size: 80% 100%;
+        height: 300px;
+        background-position-x: center; 
+    }
+
+    .containergrisoscuro {
+        height: 330px;
+    }
+    
+    
+    .iconos{
+        margin-left: 0;
+    } 
+    
+    .Contactos{
+        margin-left: 0;
+    }
+
+    .caracas{
+        margin-left: 0;
+    }
+
+    .cuadro1, .cuadro2, .cuadro3{
+        width: 100%;
+        padding: 10px
+    }
+
+    .Informacion, .nosotros, .tiendas, .formas, .aliados, .envios, .Terminos, .politica, .condiciones, .Productos, .tipos, .proveedores, .mayor, .detal, .franquicias{
+        margin-left: 0;
+    }
+
+    .redondito1, .redondito2, .redondito3{
+        height: 200px;
+        width: 200px;
+    }
+
+    .camioncito{
+        height: 100px;
+        width: 170px;
+    }
+
+    .motico{
+        height: 140px;
+        width: 140px;
+    }
+
+    .caja {
+        height: 130px;
+        width: 130px;
+    }
+
+}
+
+@media (max-width: 414px) {
+    
+    .imagen2 {
+        background-size: 70% 70%;
+        height: 225px;
+        background-position-x: center;
+    }
+    .containergris {
+        height: 260px;
+    }
+    .hidden-xs {
+        display: none;
+    }
+    .registrate,
+    .inicio { 
+        font-size: 14px;
+        height: 35px;
+        width: 120px;
+        position: relative;
+        left: 85px;
+        top: -10px;
+    }
+    .inicio {
+        margin-left: 10px;
+    }
+    .imagen {
+        height: 230px;
+        margin-top: 0px;
+        position: relative;
+        top: -45px;
+        margin-top: -25px;
+    }
+    
+    .contenedor-naranja {
+        height: 180px;
+        width: 100%;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+    
+    }
+    .boton {
+        height: 100px;
+        width: 100px;
+    }
+    .boton1,
+    .boton2 {
+        height: 35px;
+        width: 120px;
+        background-size: 90px;
+        display: inline-block;
+    }
+    .boton1:hover,
+    .boton2:hover {
+        background-size: 90px;
+    }
+    .containerblanco {
+        height: 150px;
+        width: 100%;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    .containergris {
+        width: 100%;
+        height: 280px;
+    }
+    .containergrisoscuro {
+        height: 150px;
+    }
+    .redondito1,
+    .redondito2,
+    .redondito3 {
+        height: 80px;
+        width: 80px;
+        border-radius: 50px;
+    }
+    .redondito1 {
+        margin-left: 20px;
+    }
+    .redondito2 {
+        margin-top: -75px;
+    }
+    .redondito3 {
+        margin-top: -80px;
+        margin-right: 20px;
+    }
+    .camioncito {
+        height: 40px;
+        width: 60px;
+    }
+    .caja {
+        height: 50px;
+        width: 50px;
+    }
+    .motico {
+        height: 60px;
+        width: 60px;
+    }
+    .containernaranja2 {
+        min-height: 820px;
+    }
+    .h2,
+    .h3,
+    .h4 {
+        font-size: 20px;
+    }
+    .cuadro1, .cuadro2, .cuadro3 {
+        height: 160px;
+        padding: 20px;
+        width: 100%;
+    }
+    .containergrisoscuro2 {
+        border-bottom-right-radius: 65px;
+        border-bottom-left-radius: 65px;
+    }
+    .iconos {
+        margin-left: 0;
+    }
+    .Contactos {
+        margin-left: 0;
+    }
+    .caracas {
+        margin-left: 0;
+    }
+    .copyright {
+        margin-top: 25px;
+    }
+}   

@@ -1,0 +1,113 @@
+.modal-content {
+    width: 100%;
+    border-radius: 3rem !important;
+    border-top: 0 none;
+    box-shadow: 5px 5px 20px #c7ced6;
+    background-color: white;
+    padding: 15px;  
+}
+
+.modal-footer {
+    justify-content: center;
+    border-top: 0 none;
+}
+
+.modal-header {
+    border-bottom: 0 none;
+}
+
+.titulo-tasa{
+    color: #424242;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 35px;
+}
+
+.modal-backdrop {
+    background-color: #ea6416;
+}
+
+.subtitle{
+    color: #ea6416;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 15px;
+    position: relative;
+    left: -265px;
+    top: 15px;
+}
+
+.subtitle-1{
+    color: #ea6416;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    left: -260px;
+    top: 15px;
+}
+
+.define{
+    color: #424242;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 13px;
+}
+
+.bolivares{
+    height: 45px;
+    width: 45px;
+    background-color: #ea6416;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    position: relative;
+    left: 35px;
+    padding: 12px;
+    color: white;
+}
+
+.monto-tasa{
+    height: 45px;
+    width: 320px;
+    border: 2px solid #ea6416;
+    background-color: transparent;
+    position: relative;
+    left: 79px;
+    top: -45px;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+
+}
+
+.monto-pin{
+    height: 45px;
+    width: 350px;
+    border: 2px solid #ea6416;
+    background-color: transparent;
+    position: relative;
+    left: 45px;
+    border-radius: 45px;
+}
+
+.btn-tasa-1{
+    height: 45px;
+    width: 160px;
+    background-color: #ea6416;
+    border: 2px solid #ea6416;
+    border-radius: 45px;
+    color: white;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 18px;
+}
+
+.btn-tasa-2{
+    height: 45px;
+    width: 120px;
+    background-color: white;
+    border: 2px solid #ea6416;
+    border-radius: 45px;
+    color: #ea6416;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 18px;
+}
+
+.btn-tasa-1:focus, .btn-tasa-2:focus{
+    outline: none;
+}

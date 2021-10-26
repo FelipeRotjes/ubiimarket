@@ -1,0 +1,541 @@
+body{
+    width: 100%;
+    height: auto;
+}
+
+.logo{
+    height: 250px;
+    width: 250px;
+
+}
+
+.registrate, .inicio {
+    height: 45px;
+    width: 200px;
+    background-color: transparent;
+    border: 2px solid #ea6416;
+    color: #424242;
+    border-radius: 45px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 25px;
+}
+
+.registrate:hover {
+    color: white !important;
+    background-color: #ea6416;
+    border: 2px solid white;
+}
+
+.inicio {
+    border: 2px solid #424242;
+    color: #ea6416;
+}
+
+.inicio:hover {
+    background-color: #424242;
+    border: 2px solid white;
+    color: white;
+}
+
+.caucho-1{
+    height: 480px;
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid #ea6416;
+    border-radius: 45px;
+    background-image: url(..//multimedia/8.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.btn-cauchos{
+    height: 120px;
+    width: 120px;
+    background-color: transparent;
+    border: 2px solid #ea6416;
+    border-radius: 35px;
+    background-image: url(..//multimedia/8.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.caucho-3{
+    background-image: url(..//multimedia/2.png);
+    background-position: center;
+    background-size: 70% 90%;
+    background-repeat: no-repeat;
+    border: 2px solid #cbd2da;
+}
+
+.caucho-4{
+    background-image: url(..//multimedia/9.png);
+    background-position: center;
+    background-size: 70% 80%;
+    background-repeat: no-repeat;
+    border: 2px solid #cbd2da;
+}
+
+.texto-1{
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 25px;
+    color: #424242;
+}
+
+.texto-2{
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 25px;
+    color: #ea6416;
+}
+
+.cantidad{
+    height: 45px;
+    width: 80px;
+    border: 2px solid #cbd2da;
+    border-radius: 35px;
+}
+
+.btn-1, .btn-2{
+    height: 45px;
+    width: 350px;
+    background-color: transparent;
+    border: 2px solid #ea6416;
+    border-radius: 45px;
+    color: #ea6416;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    /* margin-left: 25px; */
+}
+
+.btn-2{
+    background-color: #ea6416;
+    border: 2px solid #ea6416;
+    color: white;
+}
+
+.linea1, .linea2, .linea3, .linea4{
+    background-color: #ea6416;
+    border: 1px solid #ea6416;
+    border-radius: 45px;
+}
+
+.triangulo{
+    height: 15px;
+    width: 15px;
+}
+
+.info, .info-descripcion{
+    color: #ea6416;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+}
+
+table.roundedCorners {
+    border: 2px solid #cbd2da;
+    border-radius: 13px;
+    border-spacing: 0;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    color: #424242;
+}
+
+table.roundedCorners td,
+table.roundedCorners th {
+    border-bottom: 1px solid #cbd2da;
+    padding: 10px;
+}
+
+table.roundedCorners tr:last-child>td {
+    border-bottom: none;
+    border-top: none;
+}
+
+.vl, .vl4{
+    border-left: 2px solid #ea6416;
+    height: 362px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}
+
+.tabla{
+    background-color: transparent;
+    border: 2px solid #cbd2da;
+    border-radius: 45px;
+    width: 200px;
+}
+
+.descripcion{
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    color: #424242;
+}
+
+.vl2{
+    border-left: 2px solid #ea6416;
+    height: 100px;
+    position: absolute;
+    margin-left: 15px;
+    top: 50px;
+}
+
+.vl3{
+    border-left: 2px solid #ea6416;
+    height: 100px;
+    position: absolute;
+    top: 190px;
+}
+
+.preguntas{
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    color: #424242;
+    font-weight: bold;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
+.preguntas2{
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    color: #424242;
+    font-weight: normal;
+    margin-top: 15px;  
+    margin-left: 5px; 
+}
+
+.respuestas{
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    color: #424242;
+    font-weight: bold;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
+.respuestas2{
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    color: #424242;
+    font-weight: normal;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+.fecha{
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 10px;
+    color: #424242;
+    font-weight: lighter;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 45px;
+}
+
+.preguntas3{
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    color: #424242;
+    font-weight: bold;
+    margin-left: 45px;
+    margin-top: 65px;
+}
+
+.preguntas4{
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    color: #424242;
+    font-weight: normal;
+    margin-top: 65px;  
+    margin-left: 5px; 
+}
+
+.respuestas3{
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    color: #424242;
+    font-weight: bold;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
+.respuestas4{
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    color: #424242;
+    font-weight: normal;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+.fecha2{
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 10px;
+    color: #424242;
+    font-weight: lighter;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 45px;
+}
+
+.pregunta{
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    color: #424242;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 55px;
+}
+
+.form-control{
+    height: 45px;
+    width: 350px;
+    border: 2px solid #ea6416;
+    border-radius: 45px;
+    margin-left: 35px;
+}
+
+.btn-preguntar{
+    height: 45px;
+    width: 120px;
+    background-color: #ea6416;
+    border: 2px solid #ea6416;
+    border-radius: 45px;
+    color: white;
+    margin-left: 15px;
+}
+
+
+.linea4{
+    margin-top: 30px;
+}
+
+.registrate:focus, .inicio:focus, .cantidad:focus, .btn-1:focus, .btn-2:focus, .form-control:focus, .btn-preguntar:focus, .form-control-resena:focus, .compartir:focus {
+    outline: none;
+}
+
+.estrellas, .estrellas2, .estrellas3, .estrellas4{
+    height: 45px;
+    width: 150px
+}
+
+.text-valoracion{
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 15px;
+    color: #424242;
+    font-weight: normal;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.fecha-valoracion{
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 10px;
+    color: #424242;
+    font-weight: lighter;
+    position: absolute;
+    margin-left: 5px;
+}
+
+.linea5, .linea6{
+    width: 345px;
+    background-color: #ea6416;
+    border: 0.5px solid #ea6416;
+    border-radius: 45px;
+    position: absolute;
+}
+
+.estrellas2, .estrellas3{
+    margin-top: 25px;
+}
+
+.vl4{
+    height: 390px;
+    margin-top: -18px;
+
+}
+
+.comentario{
+    margin-top: 25px;
+    padding: 15px;
+    height: 100px;
+    width: 350px;
+    border: 2px solid#cbd2da;
+    border-radius: 25px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 15px;
+    color: #424242;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.form-control-resena{
+    margin-top: 25px;
+    padding: 15px;
+    height: 100px;
+    width: 350px;
+    border: 2px solid #cbd2da;
+    border-radius: 25px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 15px;
+}
+
+.compartir{
+    height: 45px;
+    width: 120px;
+    background-color: transparent;
+    border: 2px solid #ea6416;
+    color: #ea6416;
+    border-radius: 45px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.compartir:hover{
+    border: 2px solid #ea6416;
+    background-color: #ea6416;
+    color: white;
+}
+
+@media (max-width: 768px) {
+
+    .registrate, .inicio {
+        width: 160px;
+    }
+
+    .caucho-1{
+        width: 100%;
+        height: 350px;
+    }
+
+    .btn-1, .btn-2{
+
+        width: 100%;
+
+    }
+
+    .caucho-2, .caucho-3, .caucho-4{
+        width: 100%;
+        height: 80px;
+        border-radius: 20px;
+    }
+
+    .video{
+        width: 100%;
+    }
+
+    .linea5, .linea6{
+        width: 250px;
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    .hidden-xs{
+        display: none;
+    }
+
+    .caucho-1{
+        height: 280px;
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .registrate, .inicio {
+        height: 45px;
+        width: 45%;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .texto-1, .texto-2{
+        font-size: 20px;
+        text-align: center;
+        margin-left: 25px;
+    }
+
+    .btn-1, .btn-2{
+        height: 45px;
+        width: 100%;
+    }
+
+    .input-group{
+        justify-content: center;
+        margin-left: 50px;
+    }
+
+    .caucho-2{
+        height: 80px;
+        width: 80px;
+        border-radius: 20px;
+        margin-left: -15px;
+    }
+
+    .caucho-3{
+        height: 80px;
+        width: 80px;
+        border-radius: 20px;
+        margin-left: -10px;
+    }
+
+    .caucho-4{
+        height: 80px;
+        width: 80px;
+        border-radius: 20px;
+        margin-left: -5px;
+    }
+
+    .video{
+        width: 100%;
+    }
+
+
+    .descripcion{
+        text-align: justify;
+    }
+
+    .tabla{
+        margin-left: 26px;  
+    }
+
+    .preguntas2,.respuestas2{
+        text-align: center;
+        margin-left: -20px;
+    }
+
+    .pregunta{
+        text-align: center;
+        margin-left: -15px;
+    }
+
+    .form-control{
+        margin-left: -2px;
+    }
+
+    .btn-preguntar{
+        margin-top: 15px;
+        margin-left: 70px;  
+    }
+
+    .comentario{
+        width: 100%;
+        margin-left: -1px;
+    }
+
+    .form-control-resena{
+        width: 100%;
+        margin-left: -5px;
+    }
+
+    .compartir{
+        margin-left: 70px;
+    }
+
+}
+
+

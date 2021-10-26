@@ -1,0 +1,155 @@
+body {
+    margin: 0 auto;
+    background-color: white;
+    width: 100%;
+}
+
+.inicio-1{
+    height: 45px;
+    width: 100px;
+    border: 2px solid #cbd2da;
+    background-color: transparent;
+    color: #424242;
+    border-radius: 45px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+.empresa{
+    height: 45px;
+    width: 25px;
+    border: 2px solid #cbd2da;
+    background-color: transparent;
+    color: #424242;
+    border-radius: 45px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    padding: 7px; 
+    padding-right: 6px;
+    text-align: center;
+}
+
+.carrito{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    background-color: #ea6416;
+    border: 2px solid #ea6416;
+    margin-top: 10px;
+    background-image: url(..//iconos/carrito.svg);
+    background-position: center;
+    background-size: 60% 60%;
+    background-repeat: no-repeat;
+
+}
+
+.carrito:hover{
+    background-color: #ea6416;
+    border: 2px solid #ea6416;
+}
+
+.carrito:hover{
+    outline: none;
+}
+
+.inicio-1:hover{
+    background-color: #ea6416;
+    color: white;
+    border: 2px solid #ea6416;
+}
+
+.inicio-1:focus{
+    outline: none;
+}
+
+.menu{
+    height: 700px;
+    width: 140px;
+    background-color: #cbd2da;
+    border-top-right-radius: 75px;
+    border-bottom-right-radius: 75px;
+    padding-top: 5px;
+}
+
+.fabricantes-1{
+    height: 125px;
+    width: 125px;
+}
+
+.Firestone{
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 50px;
+    color: #ea6416;
+}
+
+.estrellita{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    right: -85px;
+    top: -55px;
+}
+
+.perfil{
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 25px;
+    color: #ea6416;
+}
+
+.text{
+    color:#ea6416;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 15px;
+}
+
+.caja{
+    height: 600px;
+    width: 1520px;
+    border: 2px solid #cbd2da;
+    border-radius: 45px;
+    background-color: transparent;
+    margin-left: -20px;
+    position: relative;
+    left: 25px;
+}
+
+.linea-inventario{
+    height: 1px;
+    width: 1260px;
+    border-radius: 45px;
+    background-color: #ea6416;
+    position: relative;
+    left: 95px;
+    margin-top: 25px;
+}
+
+.total{
+    color:#424242;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+}
+
+.btn-vaciar{
+    height: 45px;
+    width: 200px;
+    border: 2px solid #cbd2da;
+    background-color: transparent;
+    color: #424242;
+    border-radius: 45px;
+}
+
+.btn-procesar{
+    height: 45px;
+    width: 200px;
+    border: 2px solid #ea6416;
+    background-color: #ea6416;
+    color: white;
+    border-radius: 45px;
+}
+
+.btn-vaciar:focus, .btn-procesar:focus{
+    outline: none;
+}
+

@@ -1,0 +1,366 @@
+
+body{
+    width: 100%;
+    height: auto;
+}
+
+.logo{
+    height: 250px;
+    width: 250px;
+
+}
+
+.registrate, .inicio {
+    height: 45px;
+    width: 200px;
+    background-color: transparent;
+    border: 2px solid #ea6416;
+    color: #424242;
+    border-radius: 45px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 25px;
+}
+
+.registrate:hover {
+    color: white !important;
+    background-color: #ea6416;
+    border: 2px solid white;
+}
+
+.inicio {
+    border: 2px solid #424242;
+    color: #ea6416;
+}
+
+.inicio:hover {
+    background-color: #424242;
+    border: 2px solid white;
+    color: white;
+}
+
+.header{
+    height: 720px;
+    width: 100%;
+}
+
+.img{
+    height: auto;
+    width: 100%;
+}
+
+.Marcas{
+    height: 300px;
+    width: 1450px;
+    border-radius: 45px;
+    background-color: #cbd2da;
+    margin-top: -295px;
+
+}
+
+.brand {
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    border: 2px solid white;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.goodyear{
+    background-image: url(..//multimedia/goodyears_1.png);
+}
+
+.firestone{
+    background-image: url(..//multimedia/firestones.png);
+    background-size: 80% 80%;
+}
+
+.pirelli{
+    background-image: url(..//multimedia/pirelli.png);
+    background-size: 90% 70%;
+}
+
+.yokahama{
+    background-image: url(..//multimedia/yokohama.png);
+    background-size: 80% 20%;
+}
+
+.michellin{
+    background-image: url(..//multimedia/michelin.png);
+    background-size: 90% 60%;
+}
+
+.bridgestone{
+    background-image: url(..//multimedia/bridgestone.png);
+    background-size: 60% 60%;
+}
+
+.sava{
+    background-image: url(..//multimedia/sava.png);
+    background-size: 70% 40%;
+}
+
+.bf-goodrich{
+    background-image: url(..//multimedia/BFGoodrich.png);
+    background-size: 80% 20%;
+    
+}
+
+.kumho{
+    background-image: url(..//multimedia/Kumho.png);
+    background-size: 80% 20%;
+}
+
+.continental{
+    background-image: url(..//multimedia/continental.png);
+    background-size: 80% 80%;
+}
+
+.Fulda{
+    background-image: url(..//multimedia/fulda.png);
+    background-size: 80% 20%;
+}
+
+.otros{
+    background-image: url(..//iconos/otros_1.svg);
+    background-size: 70% 80%;
+}
+
+.brand:hover{
+    border: 2px solid #ea6416;
+}
+
+.brand:focus{
+    outline: none;
+}
+
+.container-btn{
+    min-height: 265px;
+}
+
+.cauchos1{
+    height: 230px;
+    width: 230px;
+    border-radius: 150px;
+    background-color: white;
+    border: 2px solid white;
+}
+
+.C1{
+    min-height: 400px;
+    border-radius: 45px;
+    background-color: #cbd2da;
+}
+
+.caucho1{
+    background-image: url(..//multimedia/caucho1.png);
+    background-position: center;
+    background-size: 60% 80%;
+    background-repeat: no-repeat;
+}
+
+.caucho2{
+    background-image: url(..//multimedia/2.png);
+    background-position: center;
+    background-size: 60% 80%;
+    background-repeat: no-repeat;
+}
+
+.caucho3{
+    background-image: url(..//multimedia/3.png);
+    background-position: center;
+    background-size: 60% 80%;
+    background-repeat: no-repeat;
+}
+
+.caucho4{
+    background-image: url(..//multimedia/4.png);
+    background-position: center;
+    background-size: 60% 80%;
+    background-repeat: no-repeat;
+}
+
+.caucho5{
+    background-image: url(..//multimedia/5.png);
+    background-position: center;
+    background-size: 60% 80%;
+    background-repeat: no-repeat;
+}
+
+.caucho6{
+    background-image: url(..//multimedia/6.png);
+    background-position: center;
+    background-size: 60% 80%;
+    background-repeat: no-repeat;
+}
+
+.caucho7{
+    background-image: url(..//multimedia/11.png);
+    background-position: center;
+    background-size: 70% 55%;
+    background-repeat: no-repeat;
+}
+
+.caucho8{
+    background-image: url(..//multimedia/8.jpg);
+    background-position: center;
+    background-size: 60% 80%;
+    background-repeat: no-repeat;
+}
+
+.caucho9{
+    background-image: url(..//multimedia/9.png);
+    background-position: center;
+    background-size: 60% 80%;
+    background-repeat: no-repeat;
+}
+
+.cauchos1:focus{
+    outline: none;
+}
+
+.cauchos1:hover {
+    width: 260px;
+    height: 260px;
+    background-color: #ea6416;
+    border: 2px solid white;
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(150, 150, 150, 1);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(150, 150, 150, 1);
+    box-shadow: 0px 0px 9px 0px rgba(150, 150, 150, 1);
+    -webkit-transition: all 1s;
+    transition: all 1s
+}
+
+.text-cauchos{
+    color: white;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    margin-left: 45px;
+}
+
+.Filtros{
+    height: 450px;
+    width: 100%;
+    background-color: #cbd2da;
+    border-radius: 45px;
+}
+
+.filtros-1{
+    position: absolute;
+    right: 20px;
+    float: right;
+}
+
+.dropdown-item{
+    width: 100%;
+    border-radius: 85px;
+    color: #cbd2da;
+}
+
+.dropdown-item:hover{
+    color: #ea6416;
+}
+
+.Titulo{
+    color:#ea6416;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 25px; 
+}
+
+.borrar{
+    width: 100%;
+    height: 45px;
+    border-radius: 45px;
+    background-color: white;
+    border: 2px solid white;
+    color: #ea6416;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 15px;
+}
+
+.borrar:focus, .registrate:focus, .inicio:focus{
+    outline: none;
+}
+
+.borrar:hover{
+    background-color: #ea6416;
+    color: white;
+}
+
+@media (max-width: 768px) {
+
+    .registrate, .inicio{
+        width: 48%;
+    }
+
+    .header{
+        height: 200px;
+    }
+
+    .Marcas{
+        height: 200px;
+        margin-top: -2px;
+
+    }
+
+    .container-btn{
+        min-height: 0px;
+    }
+
+    .brand{
+        height: 100px;
+        width: 100px;
+        margin-top: -20px;  
+    }
+
+    .cauchos1{
+        height: 130px;
+        width: 130px;
+    }
+
+
+}
+
+@media (max-width: 414px) {
+
+    .logo{
+        height: 180px;
+        width: 180px;
+        position: relative;
+        left: -60px;
+    }
+
+    .filtros-1{
+        position: relative;
+        right: 0;
+        float: none;
+    }
+
+    .registrate, .inicio{
+        height: 35px;
+        width: 110px;
+        font-size: 15px;
+        position: relative;
+        left: 40px;
+        margin-top: 6px;
+    }
+
+    .Marcas{
+        height: 600px;
+        margin-top: -14px;
+    }
+
+    .brand{
+        height: 130px;
+        width: 130px;
+    }
+
+    .pirelli, .yokahama, .michellin, .bridgestone, .kumho, .continental, .Fulda, .otros {
+        margin-top: 30px;
+    }
+
+
+}
